@@ -1,0 +1,5 @@
+<div class="images-wrapper" appInfiniteScroller [scrollCallback]='scrollCallback'>
+  <div class="image-holder" *ngFor="let item of imglist">
+    <img src="{{item.previewURL}}">
+  </div>
+</div>
